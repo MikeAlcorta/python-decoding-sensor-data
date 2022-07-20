@@ -3,9 +3,10 @@ from load_data import load_sensor_data
 from house_info import HouseInfo
 from datetime import datetime, date
 ##############################
-# Do not remove these two lines
-# They are needed to validate your unittest
-@@ -12,6 +13,14 @@
+data = []
+print("Sensor Data App")
+##############################
+# Module 1 code here:
 data = load_sensor_data()
 print("Loaded records: {}".format(len(data)))
 # Module 2 code here:
